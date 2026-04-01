@@ -29,6 +29,13 @@ export default function Footer() {
                 Privacy Policy
               </Link>
               <span className="text-white/15">|</span>
+              <Link
+                href="/delete-account"
+                className="hover:text-white transition-colors"
+              >
+                Delete Account
+              </Link>
+              <span className="text-white/15">|</span>
               <a
                 href="mailto:contact@globalcaptions.app"
                 className="hover:text-white transition-colors"
