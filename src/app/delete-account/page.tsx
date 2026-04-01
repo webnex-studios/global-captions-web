@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import DeleteRequestForm from "@/components/ui/DeleteRequestForm";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -72,6 +73,16 @@ export default function DeleteAccountPage() {
                     process your request within 3 business days.
                   </p>
                 </div>
+              </div>
+            </Section>
+
+            <Section title="Request Deletion Online">
+              <p>
+                Use the form below to submit an account deletion request
+                directly from this page.
+              </p>
+              <div className="mt-4 bg-ice rounded-xl p-6 border border-dark-text/5">
+                <DeleteRequestForm />
               </div>
             </Section>
 
